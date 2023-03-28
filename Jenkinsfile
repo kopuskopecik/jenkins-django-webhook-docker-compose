@@ -1,4 +1,4 @@
-```groovy
+groovy
 pipeline {
     agent { label 'master' }
     stages {
@@ -11,4 +11,3 @@ pipeline {
         }
     }
 }
-```
