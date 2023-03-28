@@ -6,7 +6,7 @@ pipeline {
                 echo "Hello World"
                 sh 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
-                cat ./example.txt
+                cat './example.txt'
                 pwd
             }
         }
