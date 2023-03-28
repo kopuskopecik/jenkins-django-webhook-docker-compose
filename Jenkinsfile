@@ -12,8 +12,8 @@ pipeline {
                 sh 'cat ./example.txt'
                 sh 'pwd'
                 sh "cd /var/lib/jenkins/workspace/github-hook"
-                sh 'sudo /usr/local/bin/docker-compose down'
-                sh 'sudo /usr/local/bin/docker-compose up -d --build'
+                sh '/usr/local/bin/docker-compose down'
+                sh '/usr/local/bin/docker-compose up -d --build'
                 echo 'it works111'                
             }
         }
